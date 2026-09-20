@@ -15,12 +15,12 @@ Thrusty maps steering, pedals and buttons into a virtual Xbox controller for app
 
 **Download:** open this repository's **Releases** section and choose `Thrusty-1.0.0-Setup.exe`, or the portable Windows ZIP. GitHub's automatic “Source code” download does not contain a compiled application.
 
-## What you get
+## Mappings
 
 - **Wheel → controller:** steering on left stick X, accelerator on RT, brake on LT, plus buttons and D-pad diagonals.
-- **Calibration and remapping:** separate pedal calibration, 128 selectable physical buttons, inversion, deadzone and steering curve.
+- **Calibration and remapping:** separate pedal calibration, inversion, deadzone and steering curve.
 - **0–100% centering:** full nominal driver-force commands are available at 100%, subject to the wheel's own driver settings.
-- **Power-steering feel:** a lighter center, progressively firmer loading and a controlled return. This is a local approximation.
+- **Power-steering feel:** a lighter center, progressively firmer loading and a controlled return. This is a local approximation and doesn't pull from game telemetry.
 - **Near-center boost:** firm up small corrections without increasing force at larger steering angles.
 - **Feedback diagnostics:** live input meters, rumble counters, a wheel-pulse test and an Xbox-rumble round-trip test.
 - **Classic Windows UI:** native C++, no Python, npm or .NET runtime required to use the app.
@@ -75,4 +75,4 @@ ViGEm is a **retired upstream dependency**; read its [maintainer notice](https:/
 - [Contributing](CONTRIBUTING.md) · [Reporting security issues](SECURITY.md)
 - [License](LICENSE.txt) · [Credits](CREDITS.md)
 
-Maintained by **Ethan Eimont**. Independent of Thrustmaster, Microsoft and NVIDIA.
+Maintained by **Ethan Eimont**. This project is not associated with Thrustmaster, Microsoft and NVIDIA or its subsidiaries.
