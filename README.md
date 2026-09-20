@@ -9,9 +9,9 @@
 
 # Thrusty
 
-**Use your Thrustmaster T300 RS as an Xbox 360 controller, with adjustable wheel feedback and a Windows XP-inspired control panel.**
+**Use your Thrustmaster T300 RS in any game supporting Xbox 360 controllers, with adjustable wheel feedback and a clean simple UI.**
 
-Thrusty maps steering, pedals and buttons into a virtual Xbox controller for applications such as GeForce NOW. When a game sends Xbox vibration back, Thrusty turns it into wheel effects. Local centering, a simulated power-steering response and near-center boost let you tune the feel independently.
+Thrusty maps steering, pedals and buttons into a virtual Xbox controller for applications such as GeForce NOW. When a game sends Xbox vibration back, Thrusty turns it into wheel effects. Local centering, a simulated steering response and near-center boost let you tune the feel independently.
 
 **Download:** open this repository's **Releases** section and choose `Thrusty-1.0.0-Setup.exe`, or the portable Windows ZIP. GitHub's automatic “Source code” download does not contain a compiled application.
 
