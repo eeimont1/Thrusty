@@ -2,7 +2,7 @@
 
 ## Install or upgrade
 
-Close any running Thrusty instance before installing. Run `Thrusty-1.0.0-Setup.exe`; it installs for your Windows user and creates Start menu and desktop shortcuts. Upgrades preserve `%LOCALAPPDATA%\Thrusty\settings.ini` and the separately installed ViGEmBus driver.
+Run `Thrusty-1.0.0-Setup.exe`; it installs for your Windows user and creates Start menu and desktop shortcuts. Upgrades preserve `%LOCALAPPDATA%\Thrusty\settings.ini` and the separately installed ViGEmBus driver.
 
 For portable use, extract the full Windows ZIP. `Thrusty.exe` needs its neighboring `ViGEmClient.dll`; do not run it inside the ZIP or move the executable alone. Preferences still live in Local AppData.
 
