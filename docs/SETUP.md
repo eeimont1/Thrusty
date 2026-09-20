@@ -6,7 +6,7 @@ Run `Thrusty-1.0.0-Setup.exe`; it installs for your Windows user and creates Sta
 
 For portable use, extract the full Windows ZIP. `Thrusty.exe` needs its neighboring `ViGEmClient.dll`; do not run it inside the ZIP or move the executable alone. Preferences still live in Local AppData.
 
-Install the official [T300 driver](https://support.thrustmaster.com/en/product/t300rs-en/), follow the manufacturer's PC-mode instructions, and let startup calibration finish. Use separate accelerator and brake axes. Install the bundled ViGEmBus from **Feedback & setup** if it is not already present; restart Windows if that installer requests it.
+Install the official [T300 driver](https://support.thrustmaster.com/en/product/t300rs-en/), make sure your wheel is in PC-mode, and let startup calibration finish. Use separate accelerator and brake axes. Install the bundled ViGEmBus from **Feedback & setup** if it is not already present; restart Windows if that installer requests it.
 
 ## Calibrate and map
 
