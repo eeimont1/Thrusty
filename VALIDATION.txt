@@ -1,0 +1,33 @@
+THRUSTY 1.0.0 - VERIFICATION STATUS
+
+Completed locally during release preparation:
+- Linux-hosted mapping/force tests, including full-scale force, boost curve
+  monotonicity, symmetry, local motion filtering, calibration and POV mapping.
+- Native Windows x64 cross-compilation with MinGW-w64 and warnings as errors.
+- NSIS installer compilation with warnings as errors.
+- Bundled dependency SHA-256 verification and release archive validation.
+
+Configured in GitHub Actions, NOT executed in this preparation environment:
+- Windows-native execution of mapping-tests.exe.
+- Thrusty.exe --self-test: DLL exports, alloc/free, DirectInput creation,
+  XInput availability; no virtual controller or physical wheel is acquired.
+- Thrusty.exe --ui-smoke: construct the UI and close automatically, without
+  enumerating/acquiring hardware. This does not verify visual layout.
+
+Not independently verified:
+- Physical T300 feedback direction/strength or GeForce NOW session behavior.
+- Driver installation, hot-unplug under load, suspend/resume, or installer
+  install/upgrade/uninstall on actual Windows hardware.
+- Visual layout on Windows at different DPI/scaling settings.
+
+The maintainer has reported using earlier builds and provided feedback on
+centering. That is useful development feedback, not a full v1.0 acceptance test.
+Version 1.0.0 identifies this release; it is not a claim of hardware certification.
+See docs/HARDWARE-TESTING.md in the source for the remaining acceptance checks.
+
+Operational limits:
+Input polling and effect refresh share the UI thread. Finite-duration wheel
+force effects expire after 100 ms without refresh, subject to driver behavior.
+A hard UI/driver hang can retain the last virtual controller input until the
+process exits or the virtual target disconnects. No independent worker watchdog
+is implemented. Normal failures stop output and require manual reconnection.
