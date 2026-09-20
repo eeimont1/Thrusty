@@ -1,6 +1,6 @@
 # Credits and dependencies
 
-**Thrusty** is maintained by **Ethan Eimont**. The application, documentation and original wheel icon are released under the MIT license in [LICENSE.txt](LICENSE.txt). Development used AI assistance; the verification status is documented in [VALIDATION.txt](VALIDATION.txt).
+**Thrusty** is maintained by me **Ethan Eimont**. The application, documentation and original wheel icon are released under the MIT license in [LICENSE.txt](LICENSE.txt). Development used AI assistance; the verification status is documented in [VALIDATION.txt](VALIDATION.txt).
 
 | Component | Purpose | License / source |
 | --- | --- | --- |
